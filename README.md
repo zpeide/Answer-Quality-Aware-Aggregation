@@ -14,7 +14,6 @@
     ```bash
     ./run_newsqa_train.sh
     ```
-
    -  Test on primary consensus test 
     ```bash
     ./run_newsqa_eval.sh  newsqa_qa/bert-base/checkpoint-8500/
@@ -25,7 +24,7 @@
     ```
 
 
-    - Test on test_consensus_after_validate.json
+   - Test on test_consensus_after_validate.json
     ```bash
     ./run_newsqa_eval_val.sh  newsqa_qa/bert-base/checkpoint-8500/
     ```
