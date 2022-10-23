@@ -11,27 +11,22 @@
    change to the question_answering folder.
 
    - Train QA Model.
-    ```bash
+    
+   ```bash
     ./run_newsqa_train.sh
-    ```
+   ```
    -  Test on primary consensus test 
-    ```bash
+   
+   ```bash
     ./run_newsqa_eval.sh  newsqa_qa/bert-base/checkpoint-8500/
-    ```
-
-    ```bash
-    ./run_newsqa_eval.sh newsqa_qa/bert-large-uncased/checkpoint-34000/
-    ```
-
+   ```
 
    - Test on test_consensus_after_validate.json
-    ```bash
+    
+   ```bash
     ./run_newsqa_eval_val.sh  newsqa_qa/bert-base/checkpoint-8500/
-    ```
+   ```
 
-    ```bash
-    ./run_newsqa_eval_val.sh newsqa_qa/bert-large-uncased/checkpoint-34000/
-    ```
 ## Train the answer verification model.
  change to the caq-relevance folder.
  
@@ -39,39 +34,39 @@
 ### Question Answering using the aggregated data.
   - Random
   
-    ``` 
+   ``` 
     ./run_newsqa_random_train.sh
-    ```
+   ```
 
   - Ground Truth
   
-    ```
-    ./run_newsqa_ground_truth_train.sh
-    ```
-
-   - ACAF-SMV
-   
-    ```
-    ./run_newsqa_acaf_smv_train.sh
-    ```
-
-   - ACAF-SMS
-   
-    ```
-    ./run_newsqa_acaf_sms_train.sh
    ```
+    ./run_newsqa_ground_truth_train.sh
+   ```
+
+  - ACAF-SMV
+   
+   ```
+    ./run_newsqa_acaf_smv_train.sh
+   ```
+
+  - ACAF-SMS
+   
+  ```
+    ./run_newsqa_acaf_sms_train.sh
+  ```
 
    - ACAF-SMV Voted
     
-    ```
+   ```
     ./run_newsqa_acaf_smv_vote_train.sh
-    ```
+   ```
 
    - ACAF-SMS Voted
    
-    ```
+   ```
     ./run_newsqa_acaf_sms_vote_train.sh
-    ```
+   ```
 
 
 ## Experiment on Natural Questions
@@ -83,11 +78,13 @@
                     --do_train      whether it is the training set.
   ``` 
 - Pre-compute all embedding files for aggregation.
+
   ```
   create_embedding_file.py
   ``` 
   
 - Answer aggregation:
+
   ```
     answer_aggregation.py
   ```
