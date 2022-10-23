@@ -38,31 +38,37 @@
 
 ### Question Answering using the aggregated data.
   - Random
+  
     ``` 
     ./run_newsqa_random_train.sh
     ```
 
   - Ground Truth
+  
     ```
     ./run_newsqa_ground_truth_train.sh
     ```
 
    - ACAF-SMV
+   
     ```
     ./run_newsqa_acaf_smv_train.sh
     ```
 
    - ACAF-SMS
+   
     ```
     ./run_newsqa_acaf_sms_train.sh
-     ```
+   ```
 
    - ACAF-SMV Voted
+    
     ```
     ./run_newsqa_acaf_smv_vote_train.sh
     ```
 
    - ACAF-SMS Voted
+   
     ```
     ./run_newsqa_acaf_sms_vote_train.sh
     ```
