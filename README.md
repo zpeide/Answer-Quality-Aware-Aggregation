@@ -1,4 +1,6 @@
 
+code for [Answer Quality Aware Aggregation for Extractive QA Crowdsourcing](https://preview.aclanthology.org/emnlp-22-ingestion/2022.findings-emnlp.457.pdf)
+
 
 ## Create NEWSQA dataset
 - Please refer [Maluuba NewsQA Tool](https://github.com/Maluuba/newsqa.git) for creating NEWSQA dataset
