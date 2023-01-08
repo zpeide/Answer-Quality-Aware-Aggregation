@@ -1,6 +1,22 @@
 
 code for [Answer Quality Aware Aggregation for Extractive QA Crowdsourcing](https://preview.aclanthology.org/emnlp-22-ingestion/2022.findings-emnlp.457.pdf)
 
+## Citation
+```
+@inproceedings{zhu-hauff-2022-unsupervised,
+    title = "Unsupervised Domain Adaptation for Question Generation with {D}omain{D}ata Selection and Self-training",
+    author = "Zhu, Peide  and
+      Hauff, Claudia",
+    booktitle = "Findings of the Association for Computational Linguistics: NAACL 2022",
+    month = jul,
+    year = "2022",
+    address = "Seattle, United States",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.findings-naacl.183",
+    doi = "10.18653/v1/2022.findings-naacl.183",
+    pages = "2388--2401",
+}
+```
 
 ## Create NEWSQA dataset
 - Please refer [Maluuba NewsQA Tool](https://github.com/Maluuba/newsqa.git) for creating NEWSQA dataset
