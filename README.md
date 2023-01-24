@@ -3,18 +3,22 @@ code for [Answer Quality Aware Aggregation for Extractive QA Crowdsourcing](http
 
 ## Citation
 ```
-@inproceedings{zhu-hauff-2022-unsupervised,
-    title = "Unsupervised Domain Adaptation for Question Generation with {D}omain{D}ata Selection and Self-training",
-    author = "Zhu, Peide  and
-      Hauff, Claudia",
-    booktitle = "Findings of the Association for Computational Linguistics: NAACL 2022",
-    month = jul,
+@inproceedings{zhu-hauff-2022-AnswerQuality,
+    title = " Answer Quality Aware Aggregation for Extractive QA Crowdsourcing",
+    author = "Zhu, Peide and Wang, Zhen and Hauff, Claudia and Yang, Jie  and Anand, Avishek",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2022",
+    month = December,
     year = "2022",
-    address = "Seattle, United States",
+    address = "Abu Dhabi, United Arab Emirates",
     publisher = "Association for Computational Linguistics",
-    url = "https://aclanthology.org/2022.findings-naacl.183",
+    url = "https://preview.aclanthology.org/emnlp-22-ingestion/2022.findings-emnlp.457/",
     doi = "10.18653/v1/2022.findings-naacl.183",
-    pages = "2388--2401",
+    pages = "",
+    abbr={EMNLP},
+    selected=true,
+    pdf={https://preview.aclanthology.org/emnlp-22-ingestion/2022.findings-emnlp.457.pdf},
+    code={https://github.com/zpeide/Answer-Quality-Aware-Aggregation},
+    abstract = "Quality control is essential for creating extractive question answering (EQA) datasets via crowdsourcing. Aggregation across answers, i.e. word spans within passages annotated, by different crowd workers is one major focus for ensuring its quality. However, crowd workers cannot reach a consensus on a considerable portion of questions. We introduce a simple yet effective answer aggregation method that takes into account the relations among the answer, question, and context passage. We evaluate answer quality from both the view of question answering model to determine how confident the QA model is about each answer and the view of the answer verification model to determine whether the answer is correct. Then we compute aggregation scores with each answer’s quality and its contextual embedding produced by pre-trained language models. The experiments on a large real crowdsourced EQA dataset show that our framework outperforms baselines by around 16% on precision and effectively conduct answer aggregation for extractive QA task.",
 }
 ```
 
